@@ -2,30 +2,87 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>CONTEFCOM</title>
+    <title>CONTEFCOM | Tienda Tecnológica</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-<header>
-    <img src="logo.png" alt="CONTEFCOM">
+<!-- NAVBAR -->
+<nav class="navbar">
+    <img src="logo.png" alt="CONTEFCOM" class="logo">
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+        <li><a href="reparaciones.html">Reparaciones</a></li>
+        <li><a href="empresa.html">Empresa</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <img src="logo.png" alt="CONTEFCOM" class="hero-logo">
     <h1>CONTEFCOM</h1>
-    <p>
-        CONTEFCOM es una empresa tecnológica dedicada a la venta y reparación de equipos electrónicos,
-        con el objetivo de ofrecer precios accesibles y actuar con base en sólidos valores empresariales.
-        Además de garantizar accesibilidad, brindamos calidad, diversidad de productos y un excelente
-        servicio al cliente.
-    </p>
+    <p class="slogan">Tecnología accesible, calidad garantizada</p>
+
+    <div class="hero-buttons">
+        <a href="tienda.html" class="btn-principal">Ver Catálogo</a>
+        <a href="reparaciones.html" class="btn-secundario">Servicio Técnico</a>
+    </div>
 </header>
 
-<section>
-    <h2 class="section-title">Nuestras Áreas</h2>
+<!-- PRODUCTOS DESTACADOS -->
+<section class="destacados">
+    <h2>Productos Destacados</h2>
 
     <div class="cards">
-        <a href="tienda.html" class="card">
-            <h3>Tienda</h3>
-            <p>Explora nuestra variedad de productos tecnológicos disponibles.</p>
-        </a>
+
+        <div class="card">
+            <img src="img/celulares.png" alt="iPhone XR">
+            <h3>iPhone XR</h3>
+            <p>Desde RD$ 18,500</p>
+            <a href="tienda.html">Ver producto</a>
+        </div>
+
+        <div class="card">
+            <img src="img/consola.png" alt="PS4 Slim">
+            <h3>PlayStation 4 Slim</h3>
+            <p>Desde RD$ 21,000</p>
+            <a href="tienda.html">Ver producto</a>
+        </div>
+
+        <div class="card">
+            <img src="img/laptop.png" alt="Laptop HP">
+            <h3>Laptop HP i5</h3>
+            <p>Desde RD$ 28,000</p>
+            <a href="tienda.html">Ver producto</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- BENEFICIOS -->
+<section class="beneficios">
+    <div>💰 Precios accesibles</div>
+    <div>🔧 Servicio técnico especializado</div>
+    <div>📦 Productos originales</div>
+    <div>📱 Especialistas en iPhone</div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+    <h2>¿Buscas tecnología confiable?</h2>
+    <p>En CONTEFCOM combinamos precios justos, calidad y excelente atención.</p>
+    <a href="contacto.html" class="btn-principal">Contáctanos</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 CONTEFCOM · Empresa Tecnológica</p>
+</footer>
+
+</body>
+</html>
 
         <a href="reparaciones.html" class="card">
             <h3>Reparaciones</h3>
